@@ -3,10 +3,6 @@ from behave import given, when, then
 from selenium.webdriver.common.keys import Keys
 
 
-
-
-
-
 @when('Input Cancel order')
 def input(context):
     context.driver.find_element(By.XPATH, "//input[@id='helpsearch']").send_keys("Cancel order", Keys.ENTER)

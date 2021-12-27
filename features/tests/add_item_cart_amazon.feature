@@ -7,7 +7,7 @@ Feature: Test Scenarios for Adding Item to Amazon Cart
     When  Click on Search Help Library
     And   Input Cancel order
     Then  Verify ‘Cancel Items or Orders’ text is present
-Feature: Add Itewm to Cart on Amazon
+
 
   Scenario: # Enter scenario name here
     # Enter steps here
