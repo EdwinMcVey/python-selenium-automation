@@ -1,0 +1,14 @@
+body{
+    margin: 6px;
+    color: black;
+    font-family: "Arial";
+}
+div.header {
+    background-color: forestgreen;
+    color: white;
+    padding-top:20px;
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
