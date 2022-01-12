@@ -2,12 +2,11 @@
 
 Feature: Test Scenarios for Adding Item to Amazon Cart
 
+
   Scenario: User can search for AddIng Item to Cart
-    Given Open Amazon Help page
-    When  Click on Search Help Library
-    And   Input Cancel order
-    Then  Verify ‘Cancel Items or Orders’ text is present
-
-
-  Scenario: # Enter scenario name here
-    # Enter steps here
+    Given Open Amazon Page
+    When Search for penny whistle key of d
+    And Click search icon
+    And Click on first item
+    And Click on Add to cart button
+    Then Verify cart has 1 item(s)
