@@ -1,6 +1,6 @@
 # Created by Owner at 1/17/2022
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Product Selections
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: User can search for product color selections
+    Given Open Amazon product B081YS2F7N page
+    Then Verify user can click through colors

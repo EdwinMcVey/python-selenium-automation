@@ -3,7 +3,7 @@
 Feature: Test Scenarios for Adding Item to Amazon Cart
 
 
-  Scenario: User can search for AddIng Item to Cart
+  Scenario: User can search for Adding Item to Cart
     Given Open Amazon Page
     When Search for penny whistle key of d
     And Click search icon
