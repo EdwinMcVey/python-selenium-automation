@@ -7,10 +7,10 @@ from selenium.webdriver.support import expected_conditions as EC
 
 PRODUCT_PRICE = (By.XPATH, "//span[@class='a-price']")
 CART = (By.CSS_SELECTOR, '#nav-cart-count')
-ADD_TO_CART_BTN = By.ID, 'add-to-cart-button'
+ADD_TO_CART_BTN = (By.ID, 'add-to-cart-button')
 CART_BTN = (By.ID, 'attach-sidesheet-view-cart-button')
 
-@given ('Open Amazon Page')
+#@given ('Open Amazon Page')
 def open_amazon_page(context):
     context.driver.get('https://www.amazon.com')
 

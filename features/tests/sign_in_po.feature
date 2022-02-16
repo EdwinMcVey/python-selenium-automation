@@ -1,6 +1,9 @@
 # Created by Owner at 1/22/2022
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: User can see Sign page when Clicking Orders
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: Logged out user sees Sign in page when clicking Orders
+    Given Open Amazon Page
+    When Click Amazon Orders link
+    Then Verify Sign in page is opened
+
+
